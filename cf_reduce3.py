@@ -12,7 +12,7 @@ for line in sys.stdin:
         temp_key = key
     if temp_key != key:
 
-        ss = key.split("SOH")
+        ss = temp_key.split("SOH")
         if len(ss) != 2:
             continue
         item_a, item_b = ss
@@ -22,7 +22,7 @@ for line in sys.stdin:
 
     score += float(s)
 
-ss = key.strip().split("SOH")
+ss = temp_key.strip().split("SOH")
 if len(ss) != 2:
     sys.exit()
 item_a, item_b = ss
