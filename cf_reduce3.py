@@ -8,14 +8,14 @@
 import sys
 
 for line in sys.stdin:
-    itema, itemb, score = line.strip().split("\t")
-    print("%s\t%s" % (itema + "SOH" + itemb, score))
+    item_a, item_b, score = line.strip().split("\t")
+    print("%s\t%s" % (item_a + "SOH" + item_b, score))
 
 temp_key = None
-sum = 0.0
+score = 0.0
 
 for line in sys.stdin:
-    key, score = line.strip().split("\t")
+    key, s = line.strip().split("\t")
 
     if not temp_key:
         temp_key = key
@@ -24,15 +24,15 @@ for line in sys.stdin:
         ss = key.strip().split("SOH")
         if len(ss) != 2:
             continue
-        itema, itemb = ss
-        print("%s\t%s\t%d" % (itema, itemb, sum))
+        item_a, item_b = ss
+        print("%s\t%s\t%d" % (item_a, item_b, score))
         temp_key = key
-        sum = 0.0
+        score = 0.0
 
-    sum += float(score)
+    score += float(s)
 
 ss = key.strip().split("SOH")
 if len(ss) != 2:
     sys.exit()
-itema, itemb = ss
-print("%s\t%s\t%d" % (itema, itemb, sum))
+item_a, item_b = ss
+print("%s\t%s\t%d" % (item_a, item_b, score))
