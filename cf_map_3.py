@@ -1,5 +1,5 @@
 import sys
 
 for line in sys.stdin:
-    item_a, item_b, score = line.strip().split("\t")
-    print("%s\t%s" % (item_a + "SOH" + item_b, score))
+    i_a, i_b, s = line.strip().split('\t')
+    print("%s\t%s" % (i_a + "SOH" + i_b, s))

@@ -9,20 +9,12 @@
 import sys
 import math
 
-for line in sys.stdin:
-    ss = line.strip().split(",")
-    if len(ss) != 3:
-        continue
-    u, i, s = ss
-    print("%s\t%s\t%s" % (i, u, s))
-
 current_item = None
 same_item_list = []
 
 for line in sys.stdin:
-    item, userid, score = line.strip().split(' ')
+    item, user_id, score = line.strip().split('\t')
 
-    # 初始化 current_item 第一条数据只执行一次
     if not current_item:
         current_item = item
 
@@ -33,19 +25,16 @@ for line in sys.stdin:
             (u, s) = tuple
             sum += pow(s, 2)
 
-        # 和开根号
         num = math.sqrt(sum)
 
-        # 输出userid itemid new_score
         for tuple in same_item_list:
             (u, s) = tuple
-            print("%s\t%s\t%s" % (userid, item, score / num))
+            print("%s\t%s\t%s" % (u, current_item, s / num))
 
-        # 重置数据
         same_item_list = []
         current_item = item
 
-    same_item_list.append((userid, score))
+    same_item_list.append((user_id, float(score)))
 
 sum = 0.0
 for tuple in same_item_list:
@@ -56,4 +45,4 @@ num = math.sqrt(sum)
 
 for tuple in same_item_list:
     (u, s) = tuple
-    print("%s\t%s\t%s" % (userid, item, score / num))
+    print("%s\t%s\t%s" % (u, current_item, s / num))
