@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a295f14-ce0b-40d4-954a-434777472c82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/cf_map_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/cf_map_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/cf_map_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/cf_reduce1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/cf_reduce2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/cf_reduce3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cf_change_cb/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf_reduce3.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf_reduce3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_map_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf/cf_map_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_map_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf/cf_map_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_map_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf/cf_map_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_reduce1.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf/cf_reduce1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_reduce2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf/cf_reduce2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_reduce3.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf/cf_reduce3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,58 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf_reduce1.py">
+        <entry file="file://$PROJECT_DIR$/cf_change_cb/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#261#271#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf_reduce2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cf_reduce3.py">
+        <entry file="file://$PROJECT_DIR$/cf_change_cb/cf_map_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf_map_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf_map_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cf_map_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="38">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -93,6 +68,8 @@
         <option value="$PROJECT_DIR$/cf_reduce2.py" />
         <option value="$PROJECT_DIR$/cf_map_3.py" />
         <option value="$PROJECT_DIR$/cf_reduce3.py" />
+        <option value="$PROJECT_DIR$/cf_change_cb/readme" />
+        <option value="$PROJECT_DIR$/cf_change_cb/cf_map_1.py" />
       </list>
     </option>
   </component>
@@ -115,6 +92,16 @@
               <item name="cb-cf" type="b2602c69:ProjectViewProjectNode" />
               <item name="cb-cf" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cb-cf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cb-cf" type="462c0819:PsiDirectoryNode" />
+              <item name="cf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cb-cf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cb-cf" type="462c0819:PsiDirectoryNode" />
+              <item name="cf_change_cb" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,16 +112,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cf_change_cb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cf" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cf_change_cb" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -164,7 +153,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cf_reduce1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cf/cf_reduce1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,12 +184,12 @@
       <workItem from="1585145463886" duration="1186000" />
       <workItem from="1585204334221" duration="931000" />
       <workItem from="1585208140509" duration="871000" />
-      <workItem from="1585220011404" duration="79000" />
+      <workItem from="1585220011404" duration="2298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10361000" />
+    <option name="totallyTimeSpent" value="12580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1400" height="877" extended-state="6" />
@@ -220,7 +209,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="SVN Repositories" order="13" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -237,7 +226,7 @@
     <SUITE FILE_PATH="coverage/cb_cf$cf_reduce1.coverage" NAME="cf_reduce1 Coverage Results" MODIFIED="1585102295318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cf_reduce1.py">
+    <entry file="file://$PROJECT_DIR$/cf/cf_reduce1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
@@ -247,38 +236,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf_reduce2.py">
+    <entry file="file://$PROJECT_DIR$/cf/cf_reduce2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf_map_3.py">
+    <entry file="file://$PROJECT_DIR$/cf/cf_map_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf_map_2.py">
+    <entry file="file://$PROJECT_DIR$/cf/cf_map_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf_map_1.py">
+    <entry file="file://$PROJECT_DIR$/cf/cf_map_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cf_reduce3.py">
+    <entry file="file://$PROJECT_DIR$/cf/cf_reduce3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf_change_cb/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cf_change_cb/cf_map_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
