@@ -16,7 +16,7 @@ for line in sys.stdin:
         if len(ss) != 2:
             continue
         item_a, item_b = ss
-        print("%s\t%s\t%d" % (item_a, item_b, score))
+        print("%s\t%s\t%s" % (item_a, item_b, score))
         temp_key = key
         score = 0.0
 
@@ -26,4 +26,4 @@ ss = key.strip().split("SOH")
 if len(ss) != 2:
     sys.exit()
 item_a, item_b = ss
-print("%s\t%s\t%d" % (item_a, item_b, score))
+print("%s\t%s\t%s" % (item_a, item_b, score))
