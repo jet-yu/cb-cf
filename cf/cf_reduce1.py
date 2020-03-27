@@ -1,3 +1,5 @@
+# -*-coding:utf-8-*-
+
 # 源数据格式  userid  itemid score
 # 经过map1修改后的格式  itemid  userid  score 输出
 

@@ -1,3 +1,5 @@
+# -*-coding:utf-8-*-
+
 # 输入格式  itema itemb scorea*scoreb
 # 经过map以后的输出格式 itema_itemb  scorea*scoreb
 import sys

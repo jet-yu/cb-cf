@@ -1,3 +1,5 @@
+# -*-coding:utf-8-*-
+
 # 输入 user  item  new_score
 # 输出格式 itema itemb  itemaS*itembS
 #         itemb itema  itembS*itemaS
